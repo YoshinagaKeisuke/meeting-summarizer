@@ -163,8 +163,8 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
       <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
 
       {/* モーダルコンテナ */}
-      <div className="fixed inset-0 flex items-center justify-center p-4">
-        <div className="mx-auto max-w-2xl rounded-xl bg-white p-6 shadow-xl w-full">
+      <div className="fixed inset-0 flex items-center justify-center p-4 overflow-y-auto">
+        <div className="mx-auto max-w-2xl rounded-xl bg-white p-6 shadow-xl w-full max-h-screen overflow-y-auto">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-semibold">設定</h2>
             <button
@@ -345,6 +345,8 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                 </div>
               )}
             </div>
+
+
           </div>
 
           <div className="flex justify-end space-x-3 mt-6 pt-4 border-t">

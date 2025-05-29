@@ -68,7 +68,7 @@ function App() {
   /** APIキー */
   const [apiKey, setApiKey] = useState<string>('meeting-summarizer-api-key-for-testing');
   /** APIサーバー使用フラグ */
-  const [useApiServer, setUseApiServer] = useState<boolean>(true);
+  const [useApiServer, setUseApiServer] = useState<boolean>(false);
   /** APIサーバー接続状態 */
   const [apiServerConnected, setApiServerConnected] = useState<boolean>(false);
   /** LLM APIエンドポイントが設定されているかのフラグ（APIサーバー使用有無に応じて判定） */
