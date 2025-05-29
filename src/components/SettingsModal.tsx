@@ -345,8 +345,6 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
                 </div>
               )}
             </div>
-
-
           </div>
 
           <div className="flex justify-end space-x-3 mt-6 pt-4 border-t">
